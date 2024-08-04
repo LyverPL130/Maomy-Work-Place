@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>輝煌助手君 Glorious</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://cdn.discordapp.com/attachments/1260454384199008261/1269681526585561120/74e2a41ea88df513.jpg?ex=66b0f291&is=66afa111&hm=dfe99e6855c883ee436eb6f9c48c50c08c9441c01712e3dfdedd00f6cf901ae5&" rel="icon" type="image/png">
+</head>
+<body>
+    <div class="navbar">
+        <h1><a herf=index.html><span>輝煌助手君 Glorious</span></a></h1>
+        <ul class="nav-links">
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="feature.html">功能</a></li>
+            <li><a href="cmds.html">指令</a></li>
+            <li><a href="/doc/home.html">文檔</a></li>
+            <li><a href="fc.html">快速指南</a></li>
+            <li><a href="information.html">相關資訊</a></li>
+            <li><a href="contact-us.html">聯繫我們</a></li>
+            <li><a href="about-us.html">關於我們</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1><span>輝煌助手君 Glorious</span> Discord機器人</h1>
+        <h2>走向輝煌!</h2>
+
+    </div>
+    <div class="container">
+        <div class="star"></div>
+
+    </div>
+    <div class="container2">
+        <div class="section">
+            <h2>相關連結</h2>
+            <h3><a href="dc.html">Discord官方群組/支援全組</a></h3>
+            <h3><a href="invite.html">輝煌助手君 Glorious 邀請連結</a></h3>
+            <h3><a href="contact-us.html">聯絡我們</a></h3>
+        </div>
+        <div class="section">
+            <h2>關於我們</h2>
+            <h3><a href="about-us.html">開發人員</a></h3>
+            <h3><a href="about-us.html">銘謝清單</a></h3>
+        </div>
+        <div class="section">
+            <h2>文檔</h2>
+            <h3><a href="doc/home.html">文檔首頁</a></h3>
+            <h3><a href="tp/PRIVACYPOLICY.html">隱私政策</a></h3>
+            <h3><a href="tp/tos.html">服務條款</a></h3>
+        </div>
+    </div>
+    <div class="footer">
+        © 2024 Glorious. 保留所有權利。
+    </div>
+    <script>
+        const features = document.querySelectorAll('.feature');
+
+        function checkFeatures() {
+            const triggerBottom = window.innerHeight / 5 * 4;
+
+            features.forEach(feature => {
+                const boxTop = feature.getBoundingClientRect().top;
+
+                if (boxTop < triggerBottom) {
+                    feature.classList.add('show');
+                } else {
+                    feature.classList.remove('show');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', checkFeatures);
+        checkFeatures(); // Initial check in case user starts on a scrolled page
+    </script>
+
+</body>
+</html>

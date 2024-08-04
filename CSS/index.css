@@ -237,6 +237,7 @@ h3 {
     50% { transform: translate(-50%, -50%) translateY(-20px) scale(1.5); }
     100% { transform: translate(-50%, -50%) scale(1); }
 }
+/*about*/
 /* CSS/index.css */
 
 .containerE {

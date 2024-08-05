@@ -193,3 +193,9 @@ a:hover {
 a:visited {
     color: #d0d0d0;
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 5px
+    }
+}

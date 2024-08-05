@@ -141,7 +141,7 @@ body {
     color: #00ccff;
 }
 
-.container p, .container2 section p {
+.container2 section p {
     color: #ddd;
 }
 .container2 {
@@ -170,27 +170,27 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-section h2 {
+.container2 section h2 {
     margin: 0;
     padding: 10px;
 }
 
-section h3 {
+.container2 section h3 {
     margin: 5px 0;
     padding: 10px;
 }
-h3 a {
+.container2 section h3 a {
     text-decoration: none;
     font-size: 1.2em;
     color: #d0d0d0;
     transition: color 0.3s ease;
 }
 
-h3 a:hover {
+.container2 section h3 a:hover {
     text-decoration: underline;
     color: #a0a0a0;
 }
 
-h3 a:visited {
+.container2 section h3 a:visited {
     color: #d0d0d0;
 }

@@ -170,27 +170,26 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-.container2 section h2 {
+h2 {
     margin: 0;
     padding: 10px;
 }
-
-.container2 section h3 {
+h3 {
     margin: 5px 0;
     padding: 10px;
 }
-.container2 section h3 a {
+a {
     text-decoration: none;
     font-size: 1.2em;
     color: #d0d0d0;
     transition: color 0.3s ease;
 }
 
-.container2 section h3 a:hover {
+a:hover {
     text-decoration: underline;
     color: #a0a0a0;
 }
 
-.container2 section h3 a:visited {
+a:visited {
     color: #d0d0d0;
 }

@@ -205,6 +205,7 @@ body {
         }
 
         .error-message {
+            font-size: 6em;
             margin-top: 20px;
             animation: fadeInOut 3s ease-in-out;
         }
@@ -254,12 +255,6 @@ body {
 
         /* Responsive styles */
         @media (min-width: 768px) {
-            .error-message {
-                font-size: 6em;
-            }
-        }
-
-        @media (max-width: 767px) {
             .error-message {
                 font-size: 3em;
             }

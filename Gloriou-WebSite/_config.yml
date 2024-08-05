@@ -1,0 +1,11 @@
+baseurl: "" # 根目錄網站的 base URL
+url: "https://glorious.maomy.top"
+permalink: /:name/
+theme: minima
+plugins:
+  - jekyll-feed
+markdown: kramdown
+exclude:
+  - _posts
+  - _drafts
+
